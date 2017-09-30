@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CarSeguro1</string>
+    <string name="titulo_aplicacion">Ingrese Información del vehículo</string>
+    <string name="Label_patente">Patente:</string>
+    <string-array name="Label_marca"></string-array>
+    <string name="imagenes">
+
+    <item> Seleccionar Marca</item>
+    <item> Kia</item>
+    <item> Ferrari</item>
+    <item> Mercedes-Benz</item>
+    <item> Peugeot</item>
+    <item> Chevrolet</item>
+    <item> Ford</item>
+    <item> Nissan</item>
+    <item> Toyota</item>
+    <item> Honda</item>
+
+    </string>
+<string name="modelo">Modelo:</string>
+<string name="Label_año">Año:</string>
+<string name="Label_uf">Valor UF:</string>
+<string name="Texto_antiguedad">Antiguedad:</string>
+<string name="estado">Estado:</string>
+<string name="valor_seguro">Valor seguro:</string>
+<string name="ingresar">Consultar</string>
+<string name="Ingrese_datos_del_vehículo">Ingrese Datos del vehículo</string>
+<string name="Ingresar">Ingresar</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:paddingTop="16dp"
+        android:weightSum="1"
+        tools:context="inacaptemuco.cl.carseguro1.ActitytyRecibir">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+        <TextView
+            android:id="@+id/tp_titulo_aplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+            android:text="Datos del Vehículo asegurado"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texto_patente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Patente:"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/etiqueta_patente"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp"
+            android:layout_weight="0.23" />
+
+        <TextView
+            android:id="@+id/texto_marca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Marca:"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultado_marca"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/texto_modelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Modelo:"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultado_modelo"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/texto_anio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="año recibido:"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/resultado_anio"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txto_uf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Valor UF:"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultado_uf"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:text="Resultado UF:"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp"
+            android:layout_weight="0.23" />
+
+        <TextView
+            android:id="@+id/texto_antiguedad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Antiguedad:"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultado_antiguedad"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/texto_estado"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:background="@color/colorPrimary"
+            android:padding="12dp"
+            android:text="Estado vehículo:"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultado_estado"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/texto_valorSeguro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Valor seguro:"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultado_valorSeguro"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:background="@android:color/background_light"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:padding="12dp"
+            android:id="@+id/auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>

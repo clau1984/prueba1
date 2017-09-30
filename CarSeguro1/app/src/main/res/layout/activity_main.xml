@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/colorPrimary"
+       android:orientation="vertical"
+       android:paddingBottom="16dp"
+       android:paddingLeft="64dp"
+       android:paddingRight="64dp"
+       android:paddingTop="16dp"
+       tools:context="inacaptemuco.cl.carseguro1.InicioActivity">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"></LinearLayout>
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+      <ImageView
+          android:id="@+id/imagen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:layout_editor_absoluteX="90dp"
+          tools:layout_editor_absoluteY="12dp" />
+
+      <TextView
+          android:id="@+id/textView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="INGRESE DATOS DEL VEHÍCULO"
+          android:textColor="@android:color/background_light"
+          tools:layout_editor_absoluteX="111dp"
+          tools:layout_editor_absoluteY="16dp" />
+
+      <TextView
+          android:id="@+id/label_patente"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:backgroundTint="@android:color/background_light"
+          android:padding="16dp"
+          android:text="Ingrese Patente"
+          android:textColor="@android:color/background_light"
+          android:textSize="16sp" />
+
+
+      <EditText
+          android:id="@+id/patente"
+          android:layout_width="226dp"
+          android:layout_height="wrap_content"
+          android:background="@android:color/background_light"
+          android:textSize="16sp" />
+
+      <TextView
+          android:id="@+id/label_marca"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="16dp"
+          android:text="Seleccione marca:"
+          android:textColor="@android:color/background_light"
+          android:textSize="16sp" />
+
+      <Spinner
+          android:id="@+id/marca"
+          android:layout_width="166dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="0dp"
+          android:layout_marginTop="10dp"
+          android:background="@android:color/background_light" />
+
+
+      <TextView
+          android:id="@+id/label_modelo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="16dp"
+          android:text="Ingrese Modelo"
+          android:textColor="@android:color/background_light"
+          android:textSize="16sp" />
+
+      <EditText
+          android:id="@+id/modelo"
+          android:layout_width="222dp"
+          android:layout_height="wrap_content"
+          android:background="@android:color/background_light"
+          android:textSize="16sp" />
+
+      <TextView
+          android:id="@+id/label_anio"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ingrese Año"
+          android:textColor="@android:color/background_light"
+          android:textSize="16sp" />
+
+      <EditText
+          android:id="@+id/anio"
+          android:layout_width="222dp"
+          android:layout_height="wrap_content"
+          android:background="@android:color/background_light"
+          android:inputType="number"
+          android:textSize="16sp" />
+
+      <TextView
+          android:id="@+id/label_uf"
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ingrese Valor Uf"
+          android:textColor="@android:color/background_light" />
+
+      <EditText
+          android:id="@+id/valor_uf"
+          android:layout_width="222dp"
+          android:layout_height="wrap_content"
+          android:background="@android:color/background_light"
+          android:inputType="number"
+          android:padding="16dp"
+          android:textSize="16sp" />
+
+      <Button
+          android:id="@+id/ingresar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="ingresar"
+          android:padding="16dp"
+          android:text="Ingresar" />
+
+   </LinearLayout>
+
+</ScrollView>
